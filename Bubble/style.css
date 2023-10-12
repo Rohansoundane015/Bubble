@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Gilroy";
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width:100%;
+    background-color: rgb(147, 177, 193);
+
+}
+#panel{
+    height: 80%;
+    width: 80%;
+    background-color:white;
+    border-radius: 10px;
+}
+#ptop{
+    padding: 0px 20%;
+    height: 100px;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    background-color: rgb(65, 83, 141);
+    color: #fff;
+    border-radius: 0.2rem;
+    
+}
+.ele
+{
+    width:45px;
+    display: flex;
+    border-radius: 0.3rem;
+    color:white;
+    /* background-color:white; */
+    /* color:#000; */
+    font-weight: 00px;
+    gap: 25px;
+    align-items: center;
+
+
+
+}
+.box
+{
+    padding: 10px;
+    align-items: center;
+    background-color:#fff;
+    color: rgb(73, 98, 165);
+    border-radius: 0.3rem;
+
+}
+#pbot{
+    width: 100%;
+    height: 83%;
+    border-radius: 0.2rem;
+    overflow: hidden;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    /* background-color: black; */
+}
+.ele h4{
+    font-weight: 500;
+}
+/* .bubl h2{
+    font-weight: 500;
+    align-items: center;
+} */
+.bubl{
+    /* padding: 20px; */
+    width: 60px;
+    height: 60px;
+    background-color: rgb(91, 206, 141) ;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    color: white;
+
+}
+.bubl1{
+    /* padding: 20px; */
+    width: 60px;
+    height: 60px;
+    background-color: rgb(57, 64, 103) ;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    color: white;
+
+}
+.bubl1:hover{
+    cursor: pointer;
+    background-color: blue;
+}
+.bubl:hover{
+    cursor: pointer;
+    background-color: rgb(13, 69, 13);
+}
